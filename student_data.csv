@@ -1,0 +1,21 @@
+StudentID,StudyHours,ParentalEducation,Attendance,Gender,Score
+1,2,High School,70,Male,55
+2,5,Bachelor,85,Female,78
+3,3,Master,90,Female,88
+4,1,High School,60,Male,45
+5,4,Bachelor,80,Female,75
+6,6,Master,95,Male,92
+7,2,Bachelor,65,Female,60
+8,3,High School,75,Male,58
+9,5,Master,90,Female,85
+10,4,Bachelor,88,Male,80
+11,1,High School,55,Female,40
+12,6,Master,98,Male,95
+13,2,Bachelor,70,Female,63
+14,3,Master,85,Male,77
+15,5,Bachelor,90,Female,84
+16,4,High School,80,Male,72
+17,6,Master,96,Female,93
+18,3,Bachelor,78,Male,73
+19,2,High School,68,Female,59
+20,5,Master,92,Male,87

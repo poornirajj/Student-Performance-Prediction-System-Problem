@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Prediction</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        input, select { margin: 8px; padding: 5px; width: 200px; }
+    </style>
+</head>
+<body>
+    <h2>Student Performance Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Study Hours:</label><br>
+        <input type="number" name="study_hours" step="0.1" required><br>
+
+        <label>Attendance (%):</label><br>
+        <input type="number" name="attendance" required><br>
+
+        <label>Parental Education:</label><br>
+        <select name="parental_education" required>
+            <option value="High School">High School</option>
+            <option value="Bachelor">Bachelor</option>
+            <option value="Master">Master</option>
+        </select><br>
+
+        <label>Gender:</label><br>
+        <select name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
